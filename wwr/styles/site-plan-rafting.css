@@ -26,9 +26,9 @@ p {
     --paragraph-font: Roboto, serif;
 
     --nav-backgroung-color: #43BCCD;
-    --nav-link-color: 2E0C4E;
-    --nav-hover-link-color: 4E0C0F;
-    --nav-hover-backgroung-color: 0E4E0C;
+    --nav-link-color: #2E0C4E;
+    --nav-hover-link-color: #4E0C0F;
+    --nav-hover-backgroung-color: #0E4E0C;
 
     
 }
