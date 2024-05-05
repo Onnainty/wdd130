@@ -9,10 +9,10 @@
     --heading-font: Open Sans, serif;
     --paragraph-font: Roboto, serif;
 
-    --nav-backgroung-color: #43BCCD;
+    --nav-background-color: #43BCCD;
     --nav-link-color: #2E0C4E;
     --nav-hover-link-color: #4E0C0F;
-    --nav-hover-backgroung-color: #0E4E0C;
+    --nav-hover-background-color: #0E4E0C;
 }
 
 body {
@@ -36,7 +36,7 @@ p{
 }
 
 nav{
-    background-color: var(--nav-backgroung-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     text-decoration: none;
     display: flex;
@@ -54,7 +54,7 @@ nav a:link, nav a:visited{
 
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-backgroung-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 
