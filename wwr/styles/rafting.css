@@ -89,6 +89,8 @@ hero h1 {
 
 .hero article img {
     float: right;
+    width: 50%;
+    height: auto;
     margin-left: 20px;
 }
 
