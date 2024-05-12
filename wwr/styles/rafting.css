@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6{
     color: var(--primary-color);
 }
 
+h1 img{
+    width: 40px;
+    height: auto;
+}
+
 header{
     padding: 20px;
     background-color: var(--accent1-color);
@@ -57,4 +62,19 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+div {
+    position: relative;
+}
 
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000000;
+    text-align: center;
+}
