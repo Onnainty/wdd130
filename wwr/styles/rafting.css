@@ -10,9 +10,9 @@
     --paragraph-font: Roboto, serif;
 
     --nav-background-color: #43BCCD;
-    --nav-link-color: #2E0C4E;
-    --nav-hover-link-color: #4E0C0F;
-    --nav-hover-background-color: #0E4E0C;
+    --nav-link-color: #41136d;
+    --nav-hover-link-color: #631015;
+    --nav-hover-background-color: #47d142;
 }
 
 body {
@@ -37,7 +37,7 @@ p{
 
 nav{
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
     display: flex;
 }
