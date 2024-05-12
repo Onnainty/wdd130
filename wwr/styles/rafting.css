@@ -17,8 +17,9 @@
 
 body {
     font-family: Roboto, Open Sans, var(--paragraph-font);
-    max-width: 960px;
+    max-width: 1200px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -66,11 +67,39 @@ div {
     position: relative;
 }
 
-.hero img{
+.hero {
+    position: relative;
+}
+
+.hero img {
     display: block;
     width: 100%;
     height: auto;
+}
 
+  /* Position h1 and article elements */
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with opacity */
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+  /* Float img inside article */
+.hero article img {
+    float: right;
+    margin-left: 20px;
 }
 
 footer {
