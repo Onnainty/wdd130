@@ -27,11 +27,6 @@ h1, h2, h3, h4, h5, h6{
     color: var(--primary-color);
 }
 
-h1 img{
-    width: 40px;
-    height: auto;
-}
-
 header{
     padding: 20px;
     background-color: var(--accent1-color);
