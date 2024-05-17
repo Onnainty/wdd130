@@ -28,7 +28,7 @@ nav a {
 h1 {
     color: rgb(20, 95, 156);
     margin: 1rem;
-    border-bottom: steelblue;
+    border-bottom: 1px solid steelblue;
 }
 
 main img {
