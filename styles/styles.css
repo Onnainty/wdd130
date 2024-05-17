@@ -4,18 +4,31 @@
     box-sizing: border-box;
 }
 
+header, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 nav a {
-    color: rgb(247, 247, 247);
-    display: inline-block;
-    padding: 10px;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff; 
 }
 h1 {
     color: rgb(20, 95, 156);
     margin: 1rem;
+    border-bottom: steelblue;
 }
 
 main img {
@@ -29,10 +42,6 @@ main img {
 
 p {
     padding: 0;
-}
-
-main {
-    max-width: 840px;
 }
 
 aside {
