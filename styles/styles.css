@@ -29,11 +29,18 @@ nav a {
     font-weight: 700;
     color: #fff; 
 }
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
 h1 {
     color: rgb(20, 95, 156);
     margin: 1rem;
     border-bottom: 1px solid steelblue;
 }
+
 
 main img {
     float: right;
@@ -94,8 +101,4 @@ footer {
     align-items: center;
 }
 
-main {
-    grid-column: 2/3;
-    margin: 1rem;
-}
 
