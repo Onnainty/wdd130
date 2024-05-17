@@ -1,12 +1,14 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    max-width: 1200px;
-    padding: 20px;
     margin: 0 auto;
 }
 
-header, footer{
+body, header, footer{
     max-width: 840px;
     margin: 0 auto;
 }
