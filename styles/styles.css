@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
 }
 
-body, header, footer{
+body, header, .grid, footer{
     max-width: 840px;
     margin: 0 auto;
 }
@@ -87,3 +87,7 @@ footer {
     color: rgb(206, 201, 161);
 }
 
+.grid{
+    display: grid;
+    align-items: center;
+}
