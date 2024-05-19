@@ -129,12 +129,13 @@ hero h1 {
 
 .figu {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 0.5fr);
+    gap: 0px;
 }
 
 .figu figure {
     width: calc((100% - 40px) / 5); 
-    margin: 0 10px; 
+    margin: 0; 
 }
 
 .figu figure img {
