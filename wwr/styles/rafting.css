@@ -116,7 +116,7 @@ hero h1 {
 .history {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    gap: 20px;
+    gap: 10px;
     grid-column: 2;
 }
 
@@ -137,7 +137,7 @@ hero h1 {
 }
 
 .figu figure img{
-    width: 200px;
+    width: 180px;
     height: auto;
     gap: 5px;
 }
