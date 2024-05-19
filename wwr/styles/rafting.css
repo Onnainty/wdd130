@@ -83,7 +83,7 @@ div {
 
 .hero img {
     display: block;
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -124,7 +124,7 @@ hero h1 {
 }
 
 .figu figure img{
-    width: 120px;
+    width: 350px;
     height: auto;
 }
 
@@ -143,7 +143,7 @@ footer {
 
 .history img {
     display: block;
-    width: 120px;
+    width: 300px;
     height: auto;
     margin: 0 auto; 
 }
