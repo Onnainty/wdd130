@@ -154,6 +154,23 @@ hero h1 {
 footer {
     margin-top: 15px;
     border-top: 1px solid #000000;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
+footer p {
+    margin: 0;
+}
+
+footer .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+footer .social-links a img {
+    height: 30px;
+    width: auto;
+}
