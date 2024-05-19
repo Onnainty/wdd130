@@ -139,6 +139,7 @@ div {
 .figu figure img{
     width: 200px;
     height: auto;
+    gap: 5px;
 }
 
 footer {
