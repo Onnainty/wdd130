@@ -32,9 +32,8 @@ header{
     padding: 20px;
     background-color: var(--accent1-color);
     display: grid;
-	grid-template-columns: 120px 1fr 2fr;
+	grid-template-columns: 120px 1fr 1fr;
 	align-items: center;
-	border-bottom: 1px solid #ccc;
 }
 
 header h1{
