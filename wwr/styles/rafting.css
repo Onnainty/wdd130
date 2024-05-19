@@ -130,9 +130,10 @@ hero h1 {
 .figu {
     display: grid;
     grid-template-columns: repeat(5, 1fr); 
-    gap: 0px; 
+    gap: 5px; 
     width: 100%; 
     box-sizing: border-box;
+    text-align: top;
 }
 
 .figu figure {
