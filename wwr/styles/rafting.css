@@ -127,19 +127,19 @@ hero h1 {
     margin: 0 auto; 
 }
 
-.figu{
+.figu {
     display: grid;
     grid-template-columns: repeat(5, 0.5fr);
 }
 
-.figu figure{
-    width: 98%;
+.figu figure {
+    width: calc((100% - 40px) / 5); 
+    margin: 0 10px; 
 }
 
-.figu figure img{
-    width: 180px;
+.figu figure img {
+    max-width: 100%; 
     height: auto;
-    gap: 0px;
 }
 
 footer {
