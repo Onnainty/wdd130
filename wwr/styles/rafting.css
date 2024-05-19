@@ -116,8 +116,8 @@ div {
 .history {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
     grid-column: 2;
-    text-align: center;
 }
 
 .history img {
@@ -129,8 +129,7 @@ div {
 
 .figu{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(5, 0.5fr);
 }
 
 .figu figure{
@@ -138,7 +137,7 @@ div {
 }
 
 .figu figure img{
-    width: 350px;
+    width: 250px;
     height: auto;
 }
 
