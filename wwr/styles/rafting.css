@@ -134,7 +134,7 @@ hero h1 {
 }
 
 .figu figure {
-    width: calc((100% - 40px) / 5); 
+    width: calc(100% / 5); 
     margin: 0; 
 }
 
