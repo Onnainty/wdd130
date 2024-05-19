@@ -42,7 +42,7 @@ header h1{
 
 .logo img {
 	margin: 0 0.25rem 0 1rem;
-	width: 32px;
+	width: 25px;
 	height: auto;
 }
 
@@ -88,7 +88,7 @@ div {
 }
 
 
-hero h1 {
+.hero h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -113,6 +113,20 @@ hero h1 {
     margin-left: 20px;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column: 2;
+    text-align: center;
+}
+
+.history img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 auto; 
+}
+
 .figu{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -132,18 +146,6 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000000;
     text-align: center;
+    gap: 10px;
 }
 
-.history {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-column: 2;
-    text-align: center;
-}
-
-.history img {
-    display: block;
-    width: 300px;
-    height: auto;
-    margin: 0 auto; 
-}
