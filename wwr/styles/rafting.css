@@ -3,7 +3,7 @@
 :root{
     --primary-color: #F9C80E;
     --secondary-color: #F86624; 
-    --accent1-color: #403030(354, 81%, 56%);
+    --accent1-color: #4d3333;
     --accent2-color: #662E9B;
 
     --heading-font: Open Sans, serif;
@@ -12,7 +12,7 @@
     --nav-background-color: lightblue;
     --nav-link-color: #41136d;
     --nav-hover-link-color: #631015;
-    --nav-hover-background-color: #47d142;
+    --nav-hover-background-color: #006118;
 }
 
 body {
