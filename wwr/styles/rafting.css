@@ -129,18 +129,25 @@ hero h1 {
 
 .figu {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 0px;
+    grid-template-columns: repeat(5, 1fr); /* Cada columna ocupa una fracción igual del contenedor */
+    gap: 0px; /* Elimina el espacio entre las columnas */
+    width: 100%; /* Asegúrate de que el contenedor .figu ocupe todo el ancho del body */
+    box-sizing: border-box;
 }
 
 .figu figure {
-    width: calc(100% / 5); 
-    margin: 0; 
+    margin: 0; /* Elimina el margen alrededor de las figuras */
+    padding: 0; /* Elimina el padding de las figuras */
+    box-sizing: border-box; /* Asegúrate de que el padding y border se incluyan en el ancho y alto de la figura */
+    display: flex; /* Utiliza flexbox para centrar la imagen dentro de la figura */
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
 }
 
 .figu figure img {
-    max-width: 100%; 
-    height: auto;
+    max-width: 100%; /* La imagen no será más ancha que el contenedor de la figura */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; 
 }
 
 footer {
