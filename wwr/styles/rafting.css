@@ -120,11 +120,11 @@ hero h1 {
 }
 
 .figu figure{
-    width: 10%;
+    width: 100%;
 }
 
 .figu figure img{
-    width: 10%;
+    width: 100%;
     height: auto;
 }
 
@@ -134,8 +134,16 @@ footer {
     text-align: center;
 }
 
-.history{
+.history {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column: 2;
+    text-align: center;
+}
+
+.history img {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin: 0 auto; 
 }
