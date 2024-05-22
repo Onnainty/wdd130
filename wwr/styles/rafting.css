@@ -168,29 +168,36 @@ hero h1 {
     width: 100%; 
 }
 
-/*-----------------------footer------------*/
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    flex-wrap: wrap;
+/*-----------employee class----------*/
+
+.employee{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    width: 100%; 
+    box-sizing: border-box;
 }
 
-footer p {
+.employee figure {
     margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
-footer .social-links {
-    display: flex;
-    gap: 10px;
+.employee figure img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
 }
 
-footer .social-links a img {
-    height: 30px;
-    width: auto;
+.employee figure figcaption {
+    font-family: Roboto, Open Sans, var(--paragraph-font);
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%; 
 }
 
 /*-----------Contact us form----------*/
@@ -253,4 +260,29 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+/*-----------------------footer------------*/
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+footer .social-links a img {
+    height: 30px;
+    width: auto;
 }
