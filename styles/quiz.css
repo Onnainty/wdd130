@@ -31,14 +31,12 @@ nav a {
     color: #fff; 
 }
 
-/* Style for the form */
 form {
     width: 80%;
     margin: 0 auto;
     font-family: Arial, sans-serif;
 }
 
-/* Style for the fieldset */
 fieldset {
     border: 2px solid #333;
     padding: 20px;
