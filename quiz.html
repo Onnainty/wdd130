@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+    <form action="/submit-quiz" method="post">
+        <fieldset>
+            <legend>HTML and CSS Quiz</legend>
+            
+            <!-- Fill in the blank question -->
+            <div>
+                <label for="q1">1. What does HTML stand for?</label><br>
+                <input type="text" id="q1" name="q1" required>
+            </div>
+
+            <!-- Short answer question -->
+            <div>
+                <label for="q2">2. Explain the purpose of CSS.</label><br>
+                <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
+            </div>
+
+            <!-- Dropdown question -->
+            <div>
+                <label for="q3">3. Which HTML element is used to define the body of the document?</label><br>
+                <select id="q3" name="q3" required>
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="body">&lt;body&gt;</option>
+                    <option value="head">&lt;head&gt;</option>
+                    <option value="html">&lt;html&gt;</option>
+                </select>
+            </div>
+
+            <!-- Number input question -->
+            <div>
+                <label for="q4">4. How many levels of headings does HTML support?</label><br>
+                <input type="number" id="q4" name="q4" min="1" max="6" required>
+            </div>
+
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Damian Onnainty | Rio Negro, Argentina</p>
+    </footer>
+</body>
+</html>
+
