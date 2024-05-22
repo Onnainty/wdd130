@@ -50,13 +50,11 @@ legend {
     color: #333;
 }
 
-/* Style for the questions */
 label {
     display: block;
     margin-bottom: 10px;
 }
 
-/* Style for the input, textarea, and select elements */
 input[type="text"], 
 input[type="number"], 
 textarea, 
@@ -69,7 +67,6 @@ select {
     box-sizing: border-box;
 }
 
-/* Style for the radio buttons */
 input[type="radio"] {
     margin-right: 10px;
 }
@@ -82,7 +79,6 @@ select {
     background-size: 16px 16px;
 }
 
-/* Style for the submit button */
 button[type="submit"] {
     padding: 10px 20px;
     background-color: #007bff;
