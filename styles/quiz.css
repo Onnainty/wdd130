@@ -35,6 +35,7 @@ form {
     width: 80%;
     margin: 0 auto;
     font-family: Arial, sans-serif;
+    background-color: #b1b1b1;
 }
 
 fieldset {
@@ -79,7 +80,7 @@ select {
 
 button[type="submit"] {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #005bbd;
     color: #fff;
     border: none;
     border-radius: 5px;
