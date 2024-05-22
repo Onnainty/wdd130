@@ -27,7 +27,7 @@
                 <fieldset>                  
                     <div>
                         <label for="q1">* Full Name</label><br>
-                        <input type="text" id="q1" name="q1" required>
+                        <input type="text" id="q1" name="q1" rows="1" cols="50" required>
                     </div>
 
                     <div>
@@ -41,18 +41,19 @@
                     </div>
         
                     <div>
-                        <label for="q3">* Subject</label><br>
-                        <select id="q3" name="q3" required>
+                        <label for="q4">Subject</label><br>
+                        <select id="q4" name="q4">
                             <option value="" selected disabled>Choose One ...</option>
                             <option value="Info">Service information</option>
                             <option value="availability">Availability check</option>
                             <option value="claim">Claim or complaint</option>
+                            <option value="Other">Others</option>
                         </select>
                     </div>
         
                     <div>
                         <label for="q4">* Message</label><br>
-                        <input type="number" id="q4" name="q4" min="1" max="6" required>
+                        <textarea id="q2" name="q2" rows="1" cols="50"></textarea>
                     </div>
         
                 </fieldset>
