@@ -26,29 +26,33 @@
             <form action="/submit-quiz" method="post">
                 <fieldset>                  
                     <div>
-                        <label for="q1">Full Name *</label><br>
+                        <label for="q1">First Name *</label><br>
+                        <input type="text" id="q1" name="q1" rows="1" cols="40" required>
+                    </div>
+
+                    <div>
+                        <label for="q1">Last Name *</label><br>
                         <input type="text" id="q1" name="q1" rows="1" cols="40" required>
                     </div>
 
                     <div>
                         <label for="q2">Phone</label><br>
-                        <textarea id="q2" name="q2" rows="1" cols="40"></textarea>
+                        <input id="q2" name="q2" rows="1" cols="40">
                     </div>
 
                     <div>
                         <label for="q3">Email *</label><br>
-                        <textarea id="q3" name="q3" rows="1" cols="40" required></textarea>
+                        <input id="q3" name="q3" rows="1" cols="40" required>
                     </div>
         
                     <div>
                         <label for="q4">Subject</label><br>
-                        <select id="q4" name="q4">
+                        <Radio id="q4" name="q4">
                             <option value="" selected disabled>Choose One ...</option>
-                            <option value="Info">Service information</option>
-                            <option value="availability">Availability check</option>
-                            <option value="claim">Claim or complaint</option>
-                            <option value="Other">Others</option>
-                        </select>
+                            <option value="Info">General Inquiry</option>
+                            <option value="availability">Reservation Question</option>
+                            <option value="web">Website Suggestion</option>
+                        </radio>
                     </div>
         
                     <div>
@@ -62,14 +66,15 @@
         </section>
 
         <section>
-            <h2>Our Contact Information</h2>
+            <h2>Company Information</h2>
             <p>White Water Rafting</p>
+            <p>Adress: Hagerman Joint School District 233, Idaho, EE. UU.</p>
             <p>Phone +1 478-239-4728</p>
             <p>Email: <a href="mailto:">info@whitewater.com</a></p>
-            <h2>Where find us</h2>
+            <h3>Where find us</h3>
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d434.91436390958734!2d-114.89339346277785!3d42.83603307126429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d42.8360372!2d-114.8933153!5e0!3m2!1ses!2sar!4v1716397989158!5m2!1ses!2sar" 
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
 
