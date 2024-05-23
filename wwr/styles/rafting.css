@@ -132,7 +132,7 @@ div {
 
 .hero h1 {
     position: absolute;
-    text-align: ;
+    text-align: left;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
