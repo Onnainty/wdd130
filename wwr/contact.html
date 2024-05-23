@@ -21,49 +21,6 @@
     </header>
 
     <main>
-        <h2>Send Us a Message</h2>
-        <section>
-            <form action="/submit-quiz" method="post">
-                <fieldset>
-                    <div>
-                        <label for="firstName">First Name *</label><br>
-                        <input type="text" id="firstName" name="firstName" required>
-                    </div>
-
-                    <div>
-                        <label for="lastName">Last Name *</label><br>
-                        <input type="text" id="lastName" name="lastName" required>
-                    </div>
-
-                    <div>
-                        <label for="phone">Phone</label><br>
-                        <input id="phone" name="phone">
-                    </div>
-
-                    <div>
-                        <label for="email">Email *</label><br>
-                        <input id="email" name="email" required>
-                    </div>
-
-                    <div>
-                        <label for="subject">Subject</label><br>
-                        <select id="subject" name="subject">
-                            <option value="" selected disabled>Choose One ...</option>
-                            <option value="Info">General Inquiry</option>
-                            <option value="availability">Reservation Question</option>
-                            <option value="web">Website Suggestion</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label for="message">Message *</label><br>
-                        <textarea id="message" name="message" rows="5" cols="40" required></textarea>
-                    </div>
-                </fieldset>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-
         <section>
             <h2>Company Information</h2>
             <p>White Water Rafting</p>
@@ -97,8 +54,54 @@
                 </figure>
             </div>
         </section>
-    </main>
+    
+        <h2>Send Us a Message</h2>
+        <section>
+            <form action="/submit-quiz" method="post">
+                <fieldset>
+                    <div>
+                        <label for="firstName">First Name *</label><br>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
 
+                    <div>
+                        <label for="lastName">Last Name *</label><br>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone</label><br>
+                        <input id="phone" name="phone">
+                    </div>
+
+                    <div>
+                        <label for="email">Email *</label><br>
+                        <input id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label for="subject">Subject</label><br>
+                        <input type="radio" id="info" name="subject" value="Info">
+                        <label for="info">General Inquiry</label><br>
+                        <input type="radio" id="availability" name="subject" value="availability">
+                        <label for="availability">Reservation Question</label><br>
+                        <input type="radio" id="web" name="subject" value="web">
+                        <label for="web">Website Suggestion</label>
+                    </div>
+
+                    <div>
+                        <label for="message">Message *</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                    </div>
+                </fieldset>
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe" required>
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
     <footer>
         <p>&copy; 2024 White Water Rafting | Damian Onnainty</p>
         <div class="social-links">
