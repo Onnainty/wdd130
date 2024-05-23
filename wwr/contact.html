@@ -24,42 +24,41 @@
         <h2>Send Us a Message</h2>
         <section>
             <form action="/submit-quiz" method="post">
-                <fieldset>                  
+                <fieldset>
                     <div>
-                        <label for="q1">First Name *</label><br>
-                        <input type="text" id="q1" name="q1" rows="1" cols="40" required>
+                        <label for="firstName">First Name *</label><br>
+                        <input type="text" id="firstName" name="firstName" required>
                     </div>
 
                     <div>
-                        <label for="q1">Last Name *</label><br>
-                        <input type="text" id="q1" name="q1" rows="1" cols="40" required>
+                        <label for="lastName">Last Name *</label><br>
+                        <input type="text" id="lastName" name="lastName" required>
                     </div>
 
                     <div>
-                        <label for="q2">Phone</label><br>
-                        <input id="q2" name="q2" rows="1" cols="40">
+                        <label for="phone">Phone</label><br>
+                        <input id="phone" name="phone">
                     </div>
 
                     <div>
-                        <label for="q3">Email *</label><br>
-                        <input id="q3" name="q3" rows="1" cols="40" required>
+                        <label for="email">Email *</label><br>
+                        <input id="email" name="email" required>
                     </div>
-        
+
                     <div>
-                        <label for="q4">Subject</label><br>
-                        <Radio id="q4" name="q4">
+                        <label for="subject">Subject</label><br>
+                        <select id="subject" name="subject">
                             <option value="" selected disabled>Choose One ...</option>
                             <option value="Info">General Inquiry</option>
                             <option value="availability">Reservation Question</option>
                             <option value="web">Website Suggestion</option>
-                        </radio>
+                        </select>
                     </div>
-        
+
                     <div>
-                        <label for="q4">Message *</label><br>
-                        <textarea id="q2" name="q2" rows="5" cols="40"></textarea>
+                        <label for="message">Message *</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40" required></textarea>
                     </div>
-        
                 </fieldset>
                 <button type="submit">Submit</button>
             </form>
@@ -68,16 +67,14 @@
         <section>
             <h2>Company Information</h2>
             <p>White Water Rafting</p>
-            <p>Adress: Hagerman Joint School District 233, Idaho, EE. UU.</p>
+            <p>Address: Hagerman Joint School District 233, Idaho, EE. UU.</p>
             <p>Phone +1 478-239-4728</p>
-            <p>Email: <a href="mailto:">info@whitewater.com</a></p>
-            <h3>Where find us</h3>
+            <p>Email: <a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
+            <h3>Where to find us</h3>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d434.91436390958734!2d-114.89339346277785!3d42.83603307126429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d42.8360372!2d-114.8933153!5e0!3m2!1ses!2sar!4v1716397989158!5m2!1ses!2sar" 
-                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d434.91436390958734!2d-114.89339346277785!3d42.83603307126429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d42.8360372!2d-114.8933153!5e0!3m2!1ses!2sar!4v1716397989158!5m2!1ses!2sar" allowfullscreen></iframe>
             </div>
         </section>
-
 
         <section>
             <h2>Our Employees</h2>
@@ -98,10 +95,10 @@
                     <figcaption>Romina Yann | Reservations & Customer Support</figcaption>
                     <img src="images/profiles_photo/RominaYann.jpg" alt="Employee">
                 </figure>
-            </div>  
+            </div>
         </section>
     </main>
-    
+
     <footer>
         <p>&copy; 2024 White Water Rafting | Damian Onnainty</p>
         <div class="social-links">
