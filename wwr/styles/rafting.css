@@ -206,7 +206,7 @@ div {
 /*-----------employeeclass----------*/
 
 .employee {
-    margin-top: 40px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -240,7 +240,7 @@ div {
 /*-----------Contact us form----------*/
 
 form {
-    margin-top: 40px;
+    margin-top: 80px;
     width: 80%;
     margin: 0 auto;
     font-family: Arial, sans-serif;
