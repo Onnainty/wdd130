@@ -60,7 +60,6 @@ p {
 /*--------Company information----------*/
 
 .company-info-section {
-    border-top: 1px solid #000000;
     margin-top: 40px;
 }
 
@@ -206,7 +205,6 @@ div {
 
 /*-----------employeeclass----------*/
 .employees{
-    border-top: 1px solid #000000;
     margin-top: 80px;
 }
 
@@ -245,7 +243,6 @@ div {
 /*-----------Contact us form----------*/
 
 .form {
-    border-top: 1px solid #000000;
     margin-top: 80px;
 }
 
