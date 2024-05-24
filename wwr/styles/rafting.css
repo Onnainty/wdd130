@@ -242,8 +242,12 @@ div {
 
 /*-----------Contact us form----------*/
 
-form {
+.form {
     margin-top: 80px;
+}
+
+form {
+    
     width: 80%;
     margin: 0 auto;
     font-family: Arial, sans-serif;
