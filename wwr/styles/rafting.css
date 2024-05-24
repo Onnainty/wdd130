@@ -204,9 +204,12 @@ div {
 }
 
 /*-----------employeeclass----------*/
+.employees{
+    margin-top: 80px;
+}
 
 .employee {
-    margin-top: 80px;
+    
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
