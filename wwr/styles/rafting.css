@@ -63,6 +63,10 @@ p {
     margin-top: 40px;
 }
 
+.company-info-section h1{
+    text-align: center;
+}
+
 .company-info-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
