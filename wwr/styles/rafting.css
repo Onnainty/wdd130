@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Freeman&family=Open+Sans:wght@300..800;ital@0;1&family=Roboto:wght@100;300;400;500;700;900&family=Rock+Salt&display=swap');
 
 /*--------------Root-----------*/
-
 :root {
     --primary-color: #000000;
     --secondary-color: #F86624;
     --accent1-color: #d64141;
     --accent2-color: #662E9B;
-
     --heading-font: 'Open Sans', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
-
     --nav-background-color: lightblue;
     --nav-link-color: #41136d;
     --nav-hover-link-color: #631015;
     --nav-hover-background-color: rgb(123, 159, 189);
 }
 
-/*-------------------------*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 body {
     font-family: var(--paragraph-font);
@@ -26,17 +25,16 @@ body {
     margin: 0 auto;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h1 {
     color: #fffaff;
     text-align: center;
     background-color: var(--primary-color);
     opacity: .7;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
 }
 
 h2 {
@@ -66,7 +64,6 @@ p {
 }
 
 /*--------Company information----------*/
-
 .company-info-section {
     margin-top: 40px;
 }
@@ -103,15 +100,13 @@ p {
 
 h2.a {
     font-size: 2em;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin: 10px 0 20px;
 }
 
 .adventures {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    
 }
 
 .adventure {
@@ -126,7 +121,6 @@ h2.a {
 }
 
 /*--------------Navigation-----------*/
-
 nav {
     background-color: var(--nav-background-color);
     padding: 10px;
@@ -159,8 +153,7 @@ div {
     position: relative;
 }
 
-/*--------------hero-----------*/
-
+/*--------------Hero-----------*/
 .hero {
     position: relative;
     margin-bottom: 40px;
@@ -178,7 +171,6 @@ div {
     bottom: 10px;
     left: 5px;
     margin: 10px;
-    border: 1px;
     padding: 10px;
     background-color: white;
     opacity: .7;
@@ -188,32 +180,28 @@ div {
     font-size: large;
     font-weight: bolder;
 }
+
 .hero h1 {
     position: absolute;
     top: 10px;
     left: 20px;
     font-size: 2em;
+    text-align: center;
+    width: 95%;
 }
 
 .hero article img {
     width: 150px;
     height: auto;
     float: right;
-    
 }
 
-.hero article{
-    top:30%;
-    height:36%;
+.hero article {
+    top: 30%;
+    height: 36%;
 }
 
-.hero h1{
-    text-align: center;
-    width: 95%;
-}
-
-/*--------------history-----------*/
-
+/*--------------History-----------*/
 .history {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -228,8 +216,7 @@ div {
     margin: 0 auto;
 }
 
-/*--------------figures-----------*/
-
+/*--------------Figures-----------*/
 .figu {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -259,8 +246,7 @@ div {
     width: 100%;
 }
 
-/*-----------employee-class----------*/
-
+/*-----------Employee Class----------*/
 .employees {
     margin-top: 80px;
 }
@@ -298,8 +284,7 @@ div {
     width: 100%;
 }
 
-/*-----------Contact us form----------*/
-
+/*-----------Contact Us Form----------*/
 .form {
     margin-top: 80px;
 }
@@ -327,7 +312,9 @@ label {
     margin-bottom: 10px;
 }
 
-input[type="text"], input[type="number"], textarea {
+input[type="text"],
+input[type="number"],
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -359,7 +346,6 @@ button[type="submit"]:hover {
 }
 
 /*-----Checkbox-----------*/
-
 input[type="checkbox"] {
     margin-right: 10px;
     margin-bottom: 10px;
@@ -370,14 +356,13 @@ input[type="checkbox"] {
 
 label[for="subscribe"] {
     vertical-align: middle;
-    font-family: 'Roboto', 'Open Sans', var(--paragraph-font);
+    font-family: var(--paragraph-font);
     color: var(--primary-color);
     margin-bottom: 0;
     display: inline-block;
 }
 
-/*-----------------------footer------------*/
-
+/*-----------------------Footer------------*/
 footer {
     margin-top: 25px;
     border-top: 1px solid #000000;
@@ -437,7 +422,6 @@ footer .social-links a img {
 }
 
 /* Style for Table */
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -457,8 +441,7 @@ td {
     border-bottom: 1px solid #ccc;
 }
 
-/* Styles for newsletter section */
-
+/* Styles for Newsletter Section */
 .newsletter {
     background-color: #fffaff;
     padding: 50px 0;
@@ -501,8 +484,7 @@ td {
     background-color: #555;
 }
 
-/* Styles for the call-to-action section */
-
+/* Styles for Call-to-Action Section */
 .call-to-action {
     text-align: center;
     padding: 50px 0;
@@ -543,12 +525,12 @@ td {
 .button:hover {
     background-color: darkgreen;
 }
+
 .grid-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
-    
 }
 
 .grid-items {
@@ -571,4 +553,26 @@ td {
 
 .grid-items p {
     font-size: 1.2em;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .company-info-grid {
+        grid-template-columns: 1fr;
+    }
+    .employees {
+        grid-template-columns: 1fr;
+    }
+    .employee {
+        grid-template-columns: 1fr;
+    }
+    .figu {
+        grid-template-columns: 1fr;
+    }
+    .grid-layout {
+        grid-template-columns: 1fr;
+    }
+    .history {
+        grid-template-columns: 1fr;
+    }
 }
