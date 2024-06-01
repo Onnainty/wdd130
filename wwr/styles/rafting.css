@@ -26,6 +26,14 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+    font-family: var(--heading-font);
+    color: #fffaff;
+    text-align: center;
+    background-color: var(--primary-color);
+    opacity: .7;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -93,6 +101,30 @@ p {
     border: 0;
 }
 
+h2.a {
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+.adventure {
+    text-align: center;
+}
+
+.adventure img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
 /*--------------Navigation-----------*/
 
 nav {
@@ -129,36 +161,55 @@ div {
 
 /*--------------hero-----------*/
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+.hero {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
-.hero h1 {
-    position: absolute;
-    text-align: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .hero article {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 80%;
-    max-width: 700px;
+    bottom: 10px;
+    left: 5px;
+    margin: 10px;
+    border: 1px;
+    padding: 10px;
+    background-color: white;
+    opacity: .7;
+}
+
+.hero article p {
+    font-size: large;
+    font-weight: bolder;
+}
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 2em;
 }
 
 .hero article img {
-    float: right;
-    width: 50%;
+    width: 150px;
     height: auto;
-    margin-left: 20px;
+    float: right;
+    
+}
+
+.hero article{
+    top:30%;
+    height:36%;
+}
+
+.hero h1{
+    text-align: center;
+    width: 95%;
 }
 
 /*--------------history-----------*/
@@ -208,7 +259,7 @@ div {
     width: 100%;
 }
 
-/*-----------employeeclass----------*/
+/*-----------employee-class----------*/
 
 .employees {
     margin-top: 80px;
