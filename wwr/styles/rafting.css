@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font), sans-serif;
     max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
@@ -317,7 +317,7 @@ div {
 }
 
 .employee figure figcaption {
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font), sans-serif;
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
@@ -395,7 +395,7 @@ input[type="checkbox"] {
 
 label[for="subscribe"] {
     vertical-align: middle;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font), sans-serif;
     color: var(--primary-color);
     margin-bottom: 0;
     display: inline-block;
