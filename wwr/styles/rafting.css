@@ -492,3 +492,32 @@ td {
 .button:hover {
     background-color: darkgreen;
 }
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.grid-items {
+    flex: 1 1 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.grid-items img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-items h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.grid-items p {
+    font-size: 1.2em;
+}
