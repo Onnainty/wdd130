@@ -594,23 +594,3 @@ td {
     font-size: 1.2em;
 }
 
-@media (max-width: 768px) {
-    .company-info-grid {
-        grid-template-columns: 1fr;
-    }
-    .employees {
-        grid-template-columns: 1fr;
-    }
-    .employee {
-        grid-template-columns: 1fr;
-    }
-    .figu {
-        grid-template-columns: 1fr;
-    }
-    .grid-layout {
-        grid-template-columns: 1fr;
-    }
-    .history {
-        grid-template-columns: 1fr;
-    }
-}
