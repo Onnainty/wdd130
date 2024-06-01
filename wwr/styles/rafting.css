@@ -346,3 +346,143 @@ footer .social-links a img {
     height: 30px;
     width: auto;
 }
+
+.trip {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.trip-info {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.trip-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.trip-info p {
+    font-size: 1.2em;
+}
+
+.trip-image {
+    margin-top: 20px;
+}
+
+.trip-image img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: lightblue;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+}
+
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styles for newsletter section */
+.newsletter {
+    background-color: #fffaff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.newsletter input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #555;
+}
+
+/* Styles for the call-to-action section */
+.call-to-action {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.call-to-action h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 1.2em;
+    border-bottom: 20px;
+}
+
+.call-to-action a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.call-to-action a:hover {
+    color: aqua;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
