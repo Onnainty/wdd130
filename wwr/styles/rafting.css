@@ -574,7 +574,7 @@ td {
 }
 
 .grid-items img {
-    width: auto;
+    width: 300px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
