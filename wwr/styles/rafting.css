@@ -153,20 +153,20 @@ div {
     position: relative;
 }
 
-/*--------------Hero-----------*/
-.hero {
+/*--------------Hero1-----------*/
+.hero1 {
     position: relative;
     margin-bottom: 40px;
     text-align: center;
 }
 
-.hero img {
+.hero1 img {
     width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-.hero article {
+.hero1 article {
     position: absolute;
     bottom: 10px;
     left: 5px;
@@ -176,12 +176,12 @@ div {
     opacity: .7;
 }
 
-.hero article p {
+.hero1 article p {
     font-size: large;
     font-weight: bolder;
 }
 
-.hero h1 {
+.hero1 h1 {
     position: absolute;
     top: 10px;
     left: 20px;
@@ -190,15 +190,48 @@ div {
     width: 95%;
 }
 
-.hero article img {
+.hero1 article img {
     width: 150px;
     height: auto;
     float: right;
 }
 
-.hero article {
+.hero1 article {
     top: 30%;
     height: 36%;
+}
+/*--------------hero-----------*/
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+}
+
+.hero article img {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
 }
 
 /*--------------History-----------*/
