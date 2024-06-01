@@ -454,7 +454,6 @@ footer .social-links a img {
 
 .trip-image img {
     width: 600px;
-    position: center;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -594,3 +593,23 @@ td {
     font-size: 1.2em;
 }
 
+@media (max-width: 768px) {
+    .company-info-grid {
+        grid-template-columns: 1fr;
+    }
+    .employees {
+        grid-template-columns: 1fr;
+    }
+    .employee {
+        grid-template-columns: 1fr;
+    }
+    .figu {
+        grid-template-columns: 1fr;
+    }
+    .grid-layout {
+        grid-template-columns: 1fr;
+    }
+    .history {
+        grid-template-columns: 1fr;
+    }
+}
